@@ -10,7 +10,7 @@ import (
 
 type SMS struct {
 	config map[string]string
-	driver contracts.SMS
+	driver contracts.Driver
 }
 
 func NewSMS(config config.Config) *SMS {
